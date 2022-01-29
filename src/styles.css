@@ -1,0 +1,150 @@
+/*Typography*/
+
+body,
+.font-1 p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h2,
+.font-2 h3,
+.font-2 p {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.font-3 h3,
+.font-3 p {
+  font-family: "Lora", serif;
+}
+
+h1.website-title {
+  font-size: 45px;
+}
+
+.font-1 h3,
+.font-2 h3,
+.font-3 h3 {
+  text-decoration: underline;
+}
+
+.font-1 p,
+.font-2 p,
+.font-3 p {
+  font-size: 20px;
+}
+
+p.p-style,
+footer a {
+  font-weight: bolder;
+}
+
+/*Theme & Styling*/
+
+h1,
+li.h1-li,
+footer a {
+  color: #815a99;
+}
+
+h2,
+li.h2-li {
+  color: #87e6b2;
+}
+
+p.p-style,
+li.p-li {
+  color: #e6d4b5;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li span {
+  color: black;
+}
+
+.colors-head,
+.fonts-head,
+.text-head {
+  font-size: 36px;
+  color: #ca9ee6;
+  padding-bottom: 10px;
+}
+
+.color-1 {
+  background-color: #815a99;
+}
+
+.color-2 {
+  background-color: #e6d4b5;
+}
+
+.color-3 {
+  background-color: #ca9ee6;
+}
+
+.color-4 {
+  background-color: #87e6b2;
+}
+
+.color-5 {
+  background-color: #62997b;
+}
+
+.color-1,
+.color-5 {
+  color: #fff;
+}
+
+/*Main Content*/
+
+body {
+  padding: 25px;
+}
+
+table {
+  border: 3px solid #62997b;
+  border-spacing: 5px;
+  padding: 25px;
+  margin: 25px 0;
+  width: 100%;
+}
+
+table.colors,
+table.fonts {
+  text-align: center;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  vertical-align: text-top;
+  width: 100px;
+  height: 5px;
+  font-size: 20px;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5 {
+  padding: 30px 10px;
+}
+
+.font-1,
+.font-2,
+.font-3 {
+  background-color: #e6d4b5;
+  opacity: 0.75;
+  padding: 0 10px;
+}
+
+/*Footer*/
+
+footer {
+  font-size: 20px;
+  text-align: center;
+}
